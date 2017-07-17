@@ -8,7 +8,7 @@ global class Assegna {
     @RemoteAction
     global static List<Wrapper.Auto> getAssegnazioniReparto(String di, String df, String targa){
         List<Wrapper.Auto> assegnazioni;
-        List<NE__Order__c> vetture;
+        List<NE__Order__c> vettue;
         List<NE__Order__c> avs;
         String qtarga='';
         if (!String.isBlank(targa)) {
